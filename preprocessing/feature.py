@@ -455,7 +455,7 @@ class Features:
 x_test, t_test = load_face_dataset('faces\\test\\')
 
 # x_train = normalize(x_train.astype(float))
-x_test = normalize(x_test.astype(float))
+#x_test = normalize(x_test.astype(float))
 
 # haar_like_features_generator = Features(x_train)
 # x_train = haar_like_features_generator.generate('train')
